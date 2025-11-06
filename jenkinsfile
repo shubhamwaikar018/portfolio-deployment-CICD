@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         SSH_CRED = 'python-app-key'               // Jenkins credential ID
-        SERVER_IP = '13.229.66.57'          // Your Deploy EC2 IP
+        SERVER_IP = '3.0.183.30'          // Your Deploy EC2 IP
         REMOTE_USER = 'ubuntu'
         WEB_DIR = '/var/www/html/'
     }
